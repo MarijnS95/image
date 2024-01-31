@@ -108,3 +108,7 @@ harness = false
 [[bench]]
 name = "copy_from"
 harness = false
+
+[patch.crates-io]
+# https://github.com/johannesvollmer/exrs/pull/231
+exr = { git = "https://github.com/MarijnS95/exrs", rev = "02eda66" }
